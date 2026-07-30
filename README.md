@@ -1,6 +1,6 @@
 # RISC-V ALU Design & Verification
 
-A parameterized 32-bit ALU implementing the core arithmetic, logical, and comparison
+A parameterized 32 bit ALU implementing the core arithmetic, logical, and comparison
 operations from the RV32I instruction set, built in Verilog and verified with a
 self-checking SystemVerilog testbench.
 
@@ -14,7 +14,7 @@ ADD, SUB, AND, OR, XOR, SLT (signed less-than comparison)
   ADD and SUB (both operands share a sign, but the result flips sign)
 
 ## Verification Approach
-- **Directed tests** — one targeted case per operation, including a signed
+- **Directed tests** - one targeted case per operation, including a signed
   comparison edge case (negative vs. positive operand) and an explicit
   overflow case (`0x7FFFFFFF + 1`)
 - **Self-checking** — every test automatically compares actual output against
