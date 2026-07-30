@@ -33,7 +33,7 @@ ADD, SUB, AND, OR, XOR, SLT (signed less-than comparison)
 - `alu_tb.sv` the self-checking testbench with reference model and randomized testing
 
 ## Run It Yourself
-Live, runnable version on EDA Playground: [add your share link here]
+Live, runnable version on EDA Playground: https://www.edaplayground.com/x/gRYh
 
 ## Tools
 Verilog, SystemVerilog, Icarus Verilog (simulation)
